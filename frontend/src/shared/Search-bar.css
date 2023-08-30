@@ -1,0 +1,51 @@
+
+
+.search_bar{
+  padding: 0.5rem 1rem;
+  border-radius:50px;
+  box-shadow: #090906;
+  width: max-content;
+  margin-top: 50px;
+}
+.form_group span{
+  font-size: 1.8rem;
+   color: rgb(12, 12, 11);
+}
+.form_group input{
+  border: none;
+  font-size:0.9rem ;
+  color: var(--heading-color);
+  font-weight: 500;
+}
+.form_group input:focus{
+outline: none;
+
+}
+.form_group h6{
+  margin-bottom: 0;
+}
+.form_group-fast{
+  border-right: #030303;
+}
+.search_icon i{
+  font-size: 1.6rem;
+  padding:0.5rem;
+  background:var(---secondary-color);
+  border-radius: 10px 5px 10px 5px;
+  cursor: pointer;
+  color:#fff;
+}
+.review_btn{
+  background: var(--text-color) !important;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+.review_btn a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  color:#fff;
+
+}
+.review_btn a:hover{
+  color: #fff;
+}

@@ -1,0 +1,68 @@
+h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:500;
+  font-size: 2rem;
+  
+}
+.testimonial-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  
+}
+
+.testimonial {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial.active {
+  opacity: 1;
+}
+
+.testimonial img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 60%;
+}
+
+.testimonial h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonial p {
+  font-size: 14px;
+  
+}
+
+/* Animation for sliding effect */
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  60% {
+    left: -200%;
+  }
+  80% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}

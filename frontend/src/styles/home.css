@@ -1,0 +1,70 @@
+
+
+
+.hero_subtitle img{
+  width:6rem;
+  height:4rem;
+}
+.hero_content h1{
+  font-size: 3.2rem;
+  font-weight:600;
+  margin-top: 1rem;
+  margin-bottom:2rem;
+  color: var(--heading-color);
+}
+.highlight{
+  color:var(--secondary-color)
+}
+.hero_content p{
+  font-size: 1.1rem;
+  color:var(--text-color);
+  line-height: 2rem;
+}
+
+ .hero_img-box video{
+  width:550px;
+  height:450px;
+  padding-left: 20px;
+  object-fit:contain;
+ 
+}
+.hero_content{
+  padding-top: 3.5rem;
+}
+.hero_img-box{
+  padding-top:2rem;
+}
+.services_subtitle{
+  font-size: 2.2rem;
+  font-weight: 500;
+  color:var(--secondary-color);
+  font-family: var(--subtitle-font-name);
+}
+
+.service_title{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.featured_restaurant{
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.gallery_title{
+  font-size: 2.3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+}
+.masonry_img{
+  transition: 0.3s;
+  height: auto;
+  flex: 1 1 calc(33.33% - 10px);
+  max-width: calc(70% - 10px)
+
+}
+.masonry_img:hover{
+transform: scale(1.2);
+}
+.testimonial_title{
+  font-size: 2.3rem;
+  margin-top: 1rem;
+}

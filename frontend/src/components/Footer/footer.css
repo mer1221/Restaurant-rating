@@ -1,0 +1,25 @@
+.footer{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.footer .logo img{
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.footer .logo p{
+  color:black;
+}
+.social_link span a{
+  text-decoration: none;
+  color: black;
+  font-size:1.2rem ;
+}
+.footer_link_title{
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+.footer_links a{
+  text-decoration: none;
+  color: black;
+ font-size: 1.2rem;
+}
